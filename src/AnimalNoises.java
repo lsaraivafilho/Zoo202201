@@ -1,5 +1,5 @@
 import model.Cat;
-
+import model.Snake;
 public class AnimalNoises {
 
 	// add your animal class to the model package
@@ -9,6 +9,8 @@ public class AnimalNoises {
 		Cat fluffy = new Cat();
 		System.out.println(fluffy.speak());
 
+		Snake slither = new Snake();
+		System.out.println(slither.speak());
 	}
 
 }
