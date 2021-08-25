@@ -1,4 +1,5 @@
 import model.Cat;
+import model.Dog;
 import model.Snake;
 public class AnimalNoises {
 
@@ -11,6 +12,9 @@ public class AnimalNoises {
 
 		Snake slither = new Snake();
 		System.out.println(slither.speak());
+		
+		Dog spot = new Dog();
+		System.out.println(spot.speak());
 	}
 
 }
