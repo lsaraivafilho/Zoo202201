@@ -1,5 +1,6 @@
 import model.Cat;
 import model.Dog;
+import model.Moose;
 import model.Snake;
 public class AnimalNoises {
 
@@ -15,6 +16,9 @@ public class AnimalNoises {
 		
 		Dog spot = new Dog();
 		System.out.println(spot.speak());
+		
+		Moose bullwinkle = new Moose();
+		System.out.print(bullwinkle.speak());
 	}
 
 }
