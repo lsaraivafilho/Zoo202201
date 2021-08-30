@@ -1,7 +1,9 @@
 import model.Cat;
 import model.Dog;
+import model.Giraffe;
 import model.Moose;
 import model.Snake;
+
 public class AnimalNoises {
 
 	// add your animal class to the model package
@@ -17,8 +19,11 @@ public class AnimalNoises {
 		Dog spot = new Dog();
 		System.out.println(spot.speak());
 		
+		Giraffe craig = new Giraffe();
+		System.out.println(craig.speak());
+
 		Moose bullwinkle = new Moose();
-		System.out.print(bullwinkle.speak());
+
 	}
 
 }
