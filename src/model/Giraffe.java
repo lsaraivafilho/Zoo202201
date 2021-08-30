@@ -11,9 +11,9 @@ package model;
  */
 public class Giraffe {
 
-	String name;
-	String species;
-	double height;
+	private String name;
+	private String species;
+	private double height;
 
 	/**
 	 * 
