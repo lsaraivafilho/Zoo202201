@@ -4,7 +4,7 @@ import model.Giraffe;
 import model.Moose;
 import model.Snake;
 import model.Bird;
-
+import model.Goose;
 public class AnimalNoises {
 
 	// add your animal class to the model package
@@ -30,7 +30,10 @@ public class AnimalNoises {
 		System.out.println(flappy.speak());
 		System.out.println(flappy.toString());
 		
-		
+		//creating goose
+		Goose Terrance = new Goose("Terrance", "Grey Goose", 12);
+		//output for goose
+		System.out.println(Terrance.toString() + " " + Terrance.speak());
 
 	}
 
