@@ -4,8 +4,9 @@ import model.Frog;
 import model.Giraffe;
 import model.Moose;
 import model.Snake;
+import model.Zebra;
 import model.Bird;
-
+import model.Goose;
 public class AnimalNoises {
 
 	// add your animal class to the model package
@@ -29,11 +30,15 @@ public class AnimalNoises {
 		
 		Bird flappy = new Bird();
 		System.out.println(flappy.speak());
-		System.out.println(flappy.toString());
 		
 		Frog hoppy = new Frog();
 		System.out.println(hoppy.makeNoise());
-		
+
+		Zebra marty = new Zebra();
+		System.out.println(marty.speak());
+
+    Goose Terrance = new Goose("Terrance", "Grey Goose", 12);
+		System.out.println(Terrance.speak());
 
 	}
 
