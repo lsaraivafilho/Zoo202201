@@ -1,5 +1,6 @@
 import model.Cat;
 import model.Dog;
+import model.Frog;
 import model.Giraffe;
 import model.Moose;
 import model.Snake;
@@ -30,9 +31,12 @@ public class AnimalNoises {
 		Bird flappy = new Bird();
 		System.out.println(flappy.speak());
 		
+		Frog hoppy = new Frog();
+		System.out.println(hoppy.makeNoise());
+
 		Zebra marty = new Zebra();
 		System.out.println(marty.speak());
-		
+
     Goose Terrance = new Goose("Terrance", "Grey Goose", 12);
 		System.out.println(Terrance.speak());
 
