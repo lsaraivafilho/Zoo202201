@@ -3,6 +3,7 @@ import model.Dog;
 import model.Giraffe;
 import model.Moose;
 import model.Snake;
+import model.Zebra;
 import model.Bird;
 
 public class AnimalNoises {
@@ -29,6 +30,12 @@ public class AnimalNoises {
 		Bird flappy = new Bird();
 		System.out.println(flappy.speak());
 		System.out.println(flappy.toString());
+		
+		Zebra marty = new Zebra();
+		System.out.println(marty.speak());
+		
+		
+		
 		
 		
 
