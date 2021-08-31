@@ -1,5 +1,6 @@
 import model.Cat;
 import model.Dog;
+import model.Frog;
 import model.Giraffe;
 import model.Moose;
 import model.Snake;
@@ -30,6 +31,8 @@ public class AnimalNoises {
 		System.out.println(flappy.speak());
 		System.out.println(flappy.toString());
 		
+		Frog hoppy = new Frog();
+		System.out.println(hoppy.makeNoise());
 		
 
 	}
