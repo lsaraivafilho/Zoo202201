@@ -3,6 +3,7 @@ import model.Dog;
 import model.Frog;
 import model.Giraffe;
 import model.Moose;
+import model.Sheep;
 import model.Snake;
 import model.Zebra;
 import model.Bird;
@@ -39,7 +40,9 @@ public class AnimalNoises {
 
     Goose Terrance = new Goose("Terrance", "Grey Goose", 12);
 		System.out.println(Terrance.speak());
-
+		
+		Sheep wooly = new Sheep();
+		System.out.println(wooly.speak());
 	}
 
 }
