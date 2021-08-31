@@ -3,6 +3,7 @@ import model.Dog;
 import model.Giraffe;
 import model.Moose;
 import model.Snake;
+import model.Bird;
 
 public class AnimalNoises {
 
@@ -23,6 +24,13 @@ public class AnimalNoises {
 		System.out.println(craig.speak());
 
 		Moose bullwinkle = new Moose();
+		System.out.println(bullwinkle.speak());
+		
+		Bird flappy = new Bird();
+		System.out.println(flappy.speak());
+		System.out.println(flappy.toString());
+		
+		
 
 	}
 
