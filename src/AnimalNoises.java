@@ -7,7 +7,9 @@ import model.Snake;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
+import model.Fish;
 import model.Duck;
+
 public class AnimalNoises {
 
 	// add your animal class to the model package
@@ -41,6 +43,9 @@ public class AnimalNoises {
 		Goose Terrance = new Goose("Terrance", "Grey Goose", 12);
 		System.out.println(Terrance.speak());
 		
+		Fish nemo = new Fish();
+		System.out.println(nemo.makeNoise());
+
 		Duck Bob = new Duck();
 		System.out.println(Bob.speak());
 		
