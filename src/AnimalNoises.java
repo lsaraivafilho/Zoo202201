@@ -43,6 +43,7 @@ public class AnimalNoises {
 		
 		Duck Bob = new Duck();
 		System.out.println(Bob.speak());
+		
 	}
 
 }
