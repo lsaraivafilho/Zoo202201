@@ -3,11 +3,14 @@ import model.Dog;
 import model.Frog;
 import model.Giraffe;
 import model.Moose;
-import model.Sheep;
 import model.Snake;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
+import model.Fish;
+import model.Duck;
+import model.Sheep;
+
 public class AnimalNoises {
 
 	// add your animal class to the model package
@@ -38,10 +41,16 @@ public class AnimalNoises {
 		Zebra marty = new Zebra();
 		System.out.println(marty.speak());
 
-    Goose Terrance = new Goose("Terrance", "Grey Goose", 12);
+		Goose Terrance = new Goose("Terrance", "Grey Goose", 12);
 		System.out.println(Terrance.speak());
 		
-		Sheep wooly = new Sheep();
+		Fish nemo = new Fish();
+		System.out.println(nemo.makeNoise());
+
+		Duck Bob = new Duck();
+		System.out.println(Bob.speak());
+		
+    Sheep wooly = new Sheep();
 		System.out.println(wooly.speak());
 	}
 
