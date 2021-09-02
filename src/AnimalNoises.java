@@ -3,11 +3,14 @@ import model.Dog;
 import model.Frog;
 import model.Giraffe;
 import model.Moose;
+import model.Owl;
+import model.Raven;
 import model.Snake;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
 import model.Fish;
+import model.Fox;
 import model.Duck;
 import model.Sheep;
 
@@ -50,8 +53,17 @@ public class AnimalNoises {
 		Duck Bob = new Duck();
 		System.out.println(Bob.speak());
 		
-    Sheep wooly = new Sheep();
+		Sheep wooly = new Sheep();
 		System.out.println(wooly.speak());
+		
+		Fox foxy = new Fox();
+		System.out.println(foxy.speak());
+		
+		Owl tootsie = new Owl();
+		System.out.println(tootsie.speak());
+		
+		Raven poe = new Raven();
+		System.out.println(poe.speak());
 	}
 
 }
