@@ -3,6 +3,7 @@ import model.Dog;
 import model.Frog;
 import model.Giraffe;
 import model.Moose;
+import model.Otter;
 import model.Snake;
 import model.Zebra;
 import model.Bird;
@@ -55,11 +56,15 @@ public class AnimalNoises {
     Sheep wooly = new Sheep();
 		System.out.println(wooly.speak());
 		
+		Otter kicks = new Otter();
+		System.out.println(kicks.speak());
+
 		Lion simba = new Lion();
 		System.out.println(simba.speak());
 
 		Bear yogi = new bear();
 		System.out.println(yogi.speak());
+
 
 	}
 
