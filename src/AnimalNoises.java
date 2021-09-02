@@ -8,9 +8,11 @@ import model.Snake;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
+import model.Lion;
 import model.Fish;
 import model.Duck;
 import model.Sheep;
+import model.Bear;
 
 public class AnimalNoises {
 
@@ -56,6 +58,14 @@ public class AnimalNoises {
 		
 		Otter kicks = new Otter();
 		System.out.println(kicks.speak());
+
+		Lion simba = new Lion();
+		System.out.println(simba.speak());
+
+		Bear yogi = new bear();
+		System.out.println(yogi.speak());
+
+
 	}
 
 }
