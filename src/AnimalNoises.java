@@ -11,6 +11,7 @@ import model.Lion;
 import model.Fish;
 import model.Duck;
 import model.Sheep;
+import model.Bear;
 
 public class AnimalNoises {
 
@@ -56,6 +57,10 @@ public class AnimalNoises {
 		
 		Lion simba = new Lion();
 		System.out.println(simba.speak());
+
+		Bear yogi = new bear();
+		System.out.println(yogi.speak());
+
 	}
 
 }
