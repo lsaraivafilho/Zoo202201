@@ -10,6 +10,7 @@ import model.Goose;
 import model.Fish;
 import model.Duck;
 import model.Sheep;
+import model.Bear;
 
 public class AnimalNoises {
 
@@ -52,6 +53,9 @@ public class AnimalNoises {
 		
     Sheep wooly = new Sheep();
 		System.out.println(wooly.speak());
+		
+		Bear yogi = new bear();
+		System.out.println(yogi.speak());
 	}
 
 }
