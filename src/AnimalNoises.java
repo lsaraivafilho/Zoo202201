@@ -1,4 +1,5 @@
 import model.Cat;
+import model.Cow;
 import model.Dog;
 import model.Frog;
 import model.Giraffe;
@@ -74,8 +75,11 @@ public class AnimalNoises {
 		Lion simba = new Lion();
 		System.out.println(simba.speak());
 
-		Bear yogi = new bear();
+		Bear yogi = new Bear();
 		System.out.println(yogi.speak());
+		
+		Cow Betty = new Cow("Betty",8,"Brahman");
+		System.out.println(Betty.speak());
 
 
 	}
