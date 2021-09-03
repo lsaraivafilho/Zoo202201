@@ -17,6 +17,7 @@ import model.Fox;
 import model.Duck;
 import model.Sheep;
 import model.Bear;
+import model.Seal;
 import model.Parrot;
 
 public class AnimalNoises {
@@ -82,8 +83,12 @@ public class AnimalNoises {
 		Cow Betty = new Cow("Betty",8,"Brahman");
 		System.out.println(Betty.speak());
 
+		Seal Mango = new Seal("Ribbon Seal", "Female", "Black and White");
+		System.out.println(Mango.makeNoise());
+
 		Parrot parrot = new Parrot("Jack Sparrow", "Asia", 4);
 		System.out.println(parrot.speak());
+
 	}
 
 }
